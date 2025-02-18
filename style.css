@@ -101,7 +101,6 @@
     margin-right: 10px;
   }
   
-/* Estilização do Formulário */
 #contato {
     background: #f4f4f9;
     padding: 40px 20px;
@@ -172,7 +171,6 @@
     width: 100%;
   }
   
-  /* Animações */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -181,8 +179,7 @@
       opacity: 1;
     }
   }
-  
-  /* Responsividade */
+
   @media (max-width: 768px) {
     header h1 {
       font-size: 2rem;
@@ -221,7 +218,7 @@
 header nav ul li a {
     display: flex;
     align-items: center;
-    gap: 8px; /* Espaçamento entre o icone e o texto */
+    gap: 8px; 
   }
   
   header nav ul li a i {
@@ -246,11 +243,10 @@ header nav ul li a {
     font-size: 1.8rem; 
     color: #ffdd57; 
   }
-  
-  /* Impedir seleção do logo */
+
   .no-select {
-    user-select: none; /* Impede a seleção do texto e ícone */
-    -webkit-user-select: none; /* Para navegadores baseados em WebKit */
-    -moz-user-select: none; /* Para Firefox */
-    -ms-user-select: none; /* Para Internet Explorer */
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
   }
